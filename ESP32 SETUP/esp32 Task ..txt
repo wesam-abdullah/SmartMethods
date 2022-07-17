@@ -1,0 +1,27 @@
+Installing the ESP32 Board in Arduino IDE .. 
+
+Before starting this installation procedure, make sure you have the latest version of the Arduino IDE installed in your computer. 
+If you don’t, uninstall it and install it again.
+
+Installing ESP32 Add-on in Arduino IDE :
+1- In your Arduino IDE, go to File> Preferences .
+2- Enter the following into the “تدبير عناوين اللوحات الاضافيه” field:
+	(https://dl.espressif.com/dl/package_esp32_index.json) 
+3- Open the Boards Manager. Go to Tools > Board > Boards Manager .
+4- Search for ESP32 and press install button for the “ESP32 by Espressif Systems“ .
+
+Now connect the ESP to USB wire :
+1- Select your Board in Tools > Board menu (WEMOS D1 MINI ESP32) .
+2- Tools > Port:"COM3" (COM3) .
+
+To turn on/off lighting on ESP :
+1- Go to File > 01.Basics > Blink 
+	void setup(){
+	pinMode(LED_BUILTIN , OUTPUT); 
+			}
+void loop(){
+	digitalWrite(LED_BUILTIN , HIGHT);  // Turn the LED on .
+	delay(500);
+	digitalWrite(LED_BUILTIN , LOW);  // Turn the LED off .
+	delay(500);
+		}
