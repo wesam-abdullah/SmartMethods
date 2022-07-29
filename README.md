@@ -1,6 +1,5 @@
 # myProject
-This is my Task1 ..
-It is include TWO tasks : 
+This is my Tasks 
 
 
 1- Speech to Text convertor by HTML, CSS, JS. 
