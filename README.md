@@ -8,4 +8,4 @@ This is my Tasks
 2- Steps to installing ESP32 in computer .
 
 
-3+4- Move roboat arm by speech.
+3+4- Move robot arm by speech.
